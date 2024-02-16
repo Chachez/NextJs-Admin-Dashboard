@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: var(--bgSoft);
+    align-items: center;
+    position: sticky; /* Use sticky positioning */
+    top: 0; /* Stick to the top of the containing element */
+    z-index: 1000; /* Adjust z-index as needed */
+    
+}
+
+.title {
+    color: var(--textSoft);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #2e374a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    color: var(--text);
+}
+
+.icons {
+    display: flex;
+    
+}
